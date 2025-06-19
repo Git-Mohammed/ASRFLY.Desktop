@@ -1,4 +1,5 @@
 using ASRFLY.Desktop.Code;
+using ASRFLY.Desktop.GUI.GuiCategories;
 using ASRFLY.Desktop.GUI.GuiHome;
 
 namespace ASRFLY.Desktop
@@ -14,12 +15,18 @@ namespace ASRFLY.Desktop
 
             _pageManager.LoadPage(HomeUserControl.Instance);
         }
-        
+
         #region Events
         private void btnHome_Click(object sender, EventArgs e)
         {
             _pageManager.LoadPage(HomeUserControl.Instance);
         }
+        private void btnCategories_Click(object sender, EventArgs e)
+        {
+            _pageManager.LoadPage(CategoryUserControl.Instance);
+        }
         #endregion
+
+
     }
 }
