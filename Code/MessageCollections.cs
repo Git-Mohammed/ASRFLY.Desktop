@@ -6,7 +6,7 @@ namespace ASRFLY.Desktop.Code
         // message
         public static void ShowEmptyDataMessage()
         {
-            MessageBox.Show(Resources.EmptyMessageText, Resources.EmptyMessageText,
+            MessageBox.Show(Resources.EmptyMessageText, Resources.EmptyMessageCaption,
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         // dialog

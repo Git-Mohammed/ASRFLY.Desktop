@@ -87,6 +87,7 @@
             btnCategories.TabIndex = 3;
             btnCategories.Text = "      الاصناف\r\n";
             btnCategories.UseVisualStyleBackColor = true;
+            btnCategories.Click += btnCategories_Click;
             // 
             // btnCustomers
             // 

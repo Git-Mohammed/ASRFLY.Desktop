@@ -124,6 +124,7 @@
             // 
             textBox4.Location = new Point(6, 532);
             textBox4.Name = "textBox4";
+            textBox4.RightToLeft = RightToLeft.No;
             textBox4.Size = new Size(622, 45);
             textBox4.TabIndex = 3;
             textBox4.TextAlign = HorizontalAlignment.Right;

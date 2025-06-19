@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ASRFLY.Desktop.Code;
+using ASRFLY.Desktop.GUI.GuiCategories.Forms.AddForm;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,12 +24,13 @@ namespace ASRFLY.Desktop.GUI.GuiCategories
         #region Events
         private void btnAdd_Click(object sender, EventArgs e)
         {
-
+            AddCategoryForm addCategoryForm = new AddCategoryForm();
+            addCategoryForm.ShowDialog();
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-
+            MessageCollections.ShowEmptyDataMessage();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
